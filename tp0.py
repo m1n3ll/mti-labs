@@ -1,4 +1,7 @@
 #Task 1
+
+print("TASK1")
+
 print("Hello, World !")
 name = "Manel" # used a string for name
 age = 21 # used an int for the age
@@ -19,6 +22,8 @@ weight = input("How much do you weight ?")
 height = input("How tall are you? ")
 
 #Task 2
+
+print("\nTASK 2")
 Prod_cod = input("Enter your product code :")
 Prod_name = input("Enter you product name :")
 Unit_price = float(input("Enter the price :"))
@@ -56,6 +61,8 @@ Tax ({Tax_rate * 100:.2f}%):  {tax_amount:.2f} DA
 print(receipt)
 
 #Task 3
+print("\nTASK 3")
+
 number = input("Enter a number :")
 if number > 0:
     print("The number is positive")
@@ -71,7 +78,10 @@ else:
     print(year, "is not a leap year")
 # % is for modulo
 
+
 #Task 4
+print("\nTASK 4")
+
 grade = float(input("Enter your score (0-100): "))
 if 90 <= grade <= 100:
     print("Your grade is: A")
@@ -105,10 +115,12 @@ else:
     print("Invalid number! Please enter between 1 and 7.")
 
 #Task 5
+print("\nTASK 5")
 for i in range(9):
  print( "9 x ", i, "  = ", 9*i)
 
 #Task 6
+print("\nTASK 6")
 total = 0
 count = 0
 i = int(input("Enter a number : "))
@@ -126,19 +138,21 @@ else:
 
 
 #Task 7
-
+print("\nTASK 7")
 for i in range(1, 21):
     if i % 3 == 0:
         continue   #skips multiples of 3
     print(i)
 
 #Task 8
+print("\nTASK 8")
 
 Names = ["Nermin", "Riadh", "Youcef", "Manel", "Wafa"]
 for name in Names:
  print(name)
 
 #Task 9
+print("\nTASK 9")
 
 Fruits = ["apple", "banana", "cherry", "date", "orange", "mango", "pears"]
 
@@ -151,6 +165,7 @@ print(Fruits[0])
 print(Fruits[10])
 
 #Task 10
+print("\nTASK 10")
 
 small_numbers = [10, 20, 30, 40, 50]
 print(small_numbers)
@@ -175,7 +190,7 @@ combined_list.sort(reverse=True)
 print(combined_list)
 
 #Task 11
-
+print("\nTASK 11")
 temperatures = [22.5, 24.1, 23.8, 25.0, 21.9]
 for temp in temperatures:
     print(temp)
@@ -185,7 +200,7 @@ average_temp = sum(temperatures) / len(temperatures)
 print(average_temp)
 
 #Task 12
-
+print("\nTASK 12")
 student_scores = [85, 92, 78, 95, 88]
 search = int(input("Enter a score to search for:"))
 if search in student_scores:
@@ -198,7 +213,7 @@ student_scores[2]= 80
 print(student_scores)
 
 #Task 13
-
+print("\nTASK 13")
 
 data_points = [10, 15, 20, 25, 30, 35]
 total = sum(data_points)
@@ -212,7 +227,7 @@ for point in data_points:
 print(count)
 
 #Task 14
-
+print("\nTASK 14")
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
@@ -230,7 +245,7 @@ for row in matrix:
     print()  
     
 #Task 15
-
+print("\nTASK 15")
 
 a = [
     [1, 2],
@@ -256,7 +271,7 @@ for row in result_matrix:
     
 
 #Task 16
-
+print("\nTASK 16")
 coordinates = (10.5, 20.3)
 print(coordinates)
 
@@ -281,7 +296,7 @@ for name, score in students:
     
 
 #Task 17
-
+print("\nTASK 17")
 
 student_profile = {
     "name": "Eve",
